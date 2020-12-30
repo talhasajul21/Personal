@@ -1,0 +1,188 @@
+@media screen and (max-width:980px) {
+    h1 {
+        font-size: 361%;
+        display: inline-block
+    }
+    .hero-text-box {
+        width: 60%
+    }
+    .hero-text-box h1 {
+        margin-bottom: 20px
+    }
+}
+
+.logo img {
+    width: 90%
+}
+
+.about-content img {
+    width: 300px
+}
+
+.ui-widget.ui-widget-content {
+    height: 300px
+}
+
+#tabs-3 iframe {
+    height: 280px
+}
+
+@media screen and (max-width:800px) {
+    h1 {
+        font-size: 285%
+    }
+    .box {
+        width: 46%;
+        margin-left: 7.9%
+    }
+    .box:nth-child(3) {
+        margin-left: 0
+    }
+    .box:nth-child(3),
+    .box:nth-child(4) {
+        margin-top: 7%
+    }
+    .work-box:last-child {
+        margin-left: 0;
+        margin-top: 50px
+    }
+    .work-box {
+        width: 100%
+    }
+    .testimonial .row {
+        padding: 0 15%
+    }
+    .contact ul {
+        margin: 0;
+        padding: 0
+    }
+}
+
+@media screen and (max-width:768px) {
+    .row {
+        padding: 0 4%
+    }
+    .openbtn {
+        right: 70px;
+        font-size: 25px
+    }
+    .logo {
+        left: 70px
+    }
+    .about-content img {
+        width: 200px
+    }
+    .services-box .box {
+        width: 47%;
+        margin: 0;
+        margin-right: 6%
+    }
+    .services-box .box:nth-child(3),
+    .services-box .box:nth-child(4) {
+        margin-top: 6%
+    }
+    .services-box .box:nth-child(2),
+    .services-box .box:nth-child(4) {
+        margin-right: 0
+    }
+    .work-box {
+        width: 100%;
+        margin: 0;
+        margin-top: 5%
+    }
+    .grid-container {
+        grid-template-columns: auto auto
+    }
+    .testimonial blockquote {
+        width: 100%
+    }
+    .contact-wrap {
+        grid-template-columns: 1fr;
+    }
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    h1 {
+        font-size: 240%
+    }
+    .openbtn {
+        right: 40px;
+        top: 30px
+    }
+    .logo {
+        left: 40px;
+        top: 30px
+    }
+    .about-content {
+        display: block;
+    }
+    .about-content img {
+        display: block;
+        width: 300px;
+        position: absolute;
+        right: 10%;
+    }
+    .skill-wrap {
+        margin-left: 0;
+    }
+    .about-right {
+        width: 100%;
+        background: url(../img/hacker.png) no-repeat center left/contain
+    }
+    .about-right .btn {
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+    .sidepanel .closebtn {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    body,
+    html {
+        font-size: 16px
+    }
+    .hero-text-box {
+        width: 80%
+    }
+    .services-box .box {
+        width: 100%;
+        margin: 0;
+        margin-top: 6%
+    }
+    .grid-container {
+        display: block
+    }
+    .grid-container .grid-item {
+        margin-bottom: 50px;
+        height: auto
+    }
+    .ui-tabs-tab .ui-tabs-anchor {
+        font-size: 90%;
+        display: inline-block
+    }
+    .sticky {
+        height: 4rem;
+    }
+    .sticky .logo, .sticky .openbtn {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .box {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 7%
+    }
+    #social_icon ul li a {
+        border: none
+    }
+}

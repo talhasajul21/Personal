@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="Zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Talha - An amazing single page portfolio</title>
+    <link rel="icon" href="resources/img/favicon.png" type="image/png">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,900%7cRoboto:400,500&display=swap" rel="stylesheet">    
+    <!-- VENDORS FILES -->
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- RESOURCES FILES -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
+</head>
+<body>
+    <!-- START HEADER SECTION -->
+    <header class="header-section wow fadeIn" id="particles-js">
+       <div class="row" id="home">
+        <nav>
+            <div class="row">
+                  <a class="logo" href="#home"><img src="resources/img/logo.gif" alt=""></a>
+               <!-- SIDEBAR MENU -->
+                  <div id="mySidepanel" class="sidepanel" onclick="closeNav()">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="#home" onclick="closeNav()">Home</a>
+                  <a href="#about" onclick="closeNav()">About</a>
+                  <a href="#services" onclick="closeNav()">Services</a>
+                  <a href="#work" onclick="closeNav()">Work</a>
+                  <a href="#portfolio" onclick="closeNav()">Portfolio</a>
+                  <a href="#contact" onclick="closeNav()">Contact</a>
+                </div>
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="hero-text-box typed-js">
+                <h1 class="name">Talha Sajul</h1><br>
+                <span class="typed"></span>
+            </div>
+        </div>
+      </div>
+    </header>
+    <!-- START ABOUT SECTION -->
+    <div class="about-section" id="about">
+        <div class="row">
+           <div class="section-title-box">
+                <h2>About Me</h2>
+                <p>Hi, I’m Talha Sajul, Experience Crafter from Codersfoundation.</p>
+            </div>
+            <div class="about-content">
+               <div class="about-left wow slideInLeft">
+                <img src="resources/img/hacker.png" alt="about">
+                </div>
+                <div class="skill-wrap">
+                    <h3>My experiences</h3>
+                    <div class="skillbar clearfix " data-percent="92%">
+                        <div class="skillbar-title"><span>HTML5</span></div>
+                        <div class="skillbar-bar" style="background: #e67e22;"></div>
+                        <div class="skill-bar-percent">92%</div>
+                    </div> <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="90%">
+                        <div class="skillbar-title"><span>CSS3</span></div>
+                        <div class="skillbar-bar" style="background: #3498db;"></div>
+                        <div class="skill-bar-percent">90%</div>
+                    </div> <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="50%">
+                        <div class="skillbar-title"><span>JavaScript</span></div>
+                        <div class="skillbar-bar" style="background: #2c3e50;"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div> <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="75%">
+                        <div class="skillbar-title"><span>Jquery</span></div>
+                        <div class="skillbar-bar" style="background: #5a68a5;"></div>
+                        <div class="skill-bar-percent">75%</div>
+                    </div> <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="50%">
+                        <div class="skillbar-title"><span>PHP</span></div>
+                        <div class="skillbar-bar" style="background: #525252;"></div>
+                        <div class="skill-bar-percent">50%</div>
+                    </div> <!-- End Skill Bar -->
+
+                    <div class="skillbar clearfix " data-percent="85%">
+                        <div class="skillbar-title"><span>WORDPRESS</span></div>
+                        <div class="skillbar-bar" style="background: #2ecc71;"></div>
+                        <div class="skill-bar-percent">85%</div>
+                    </div> 
+                    
+                    <!-- End Skill Bar -->
+                </div>
+                <div class="tab-col wow slideInRight">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1">About</a></li>
+                            <li><a href="#tabs-2">Social Link</a></li>
+                            <li><a href="#tabs-3">Contact</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <h3>Hi, I’m Talha</h3>
+                            <p>A freelancer web designer with 2 years of experience in WordPress Website Designs. Based on my experience, I am creating high-quality responsive websites with professional looks and feel. I know that, a website represents your business, so I work to emphasize it.</p>
+                        </div>
+                        <div id="tabs-2">
+                            <h3>Connect With Me</h3>
+                            <div id="social_icon">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/talhasajul01" target="_blank"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                    <li><a href="#"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="tabs-3">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17351.643328867536!2d90.44793536052566!3d23.729917231279416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b788683a6f2b%3A0xb56f4fd8a655cd3!2sGreen%20Model%20Town%2C%20Dhaka!5e1!3m2!1sen!2sbd!4v1582830417926!5m2!1sen!2sbd"></iframe>
+                        </div>
+                        
+                    </div>
+                     <a href="#" class="btn about-btn">Hire Me!</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START SERVICES SECTION -->
+    <section class="services wow bounceInUp" data-wow-delay="1s" id="services">
+        <div class="row">
+            <div class="section-title-box">
+                <h2>My Working Process</h2>
+                <p>Hi, I’m Talha Sajul, Experience Crafter from Codersfoundation</p>
+            </div>
+            <div class="services-box">
+                <div class="col span_1_of_4 box">
+                    <img src="resources/img/monitor.gif" alt="">
+                    <h4>Design</h4>
+                </div>
+                 <div class="col span_1_of_4 box">
+                    <img src="resources/img/magic.gif" alt="">
+                    <h4>Development</h4>
+                </div>
+                 <div class="col span_1_of_4 box">
+                    <img src="resources/img/params.gif" alt="">
+                    <h4>Testing</h4>
+                </div>
+                 <div class="col span_1_of_4 box">
+                    <img src="resources/img/plane.gif" alt="">
+                    <h4>Launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- START WORK SECTION -->
+    <section class="work-section" id="work">
+        <div class="row">
+            <div class="col span_1_of_2 work-box wow bounceInLeft" data-wow-delay=".2s">
+                <h3>Work Experience</h3>
+                <h5>Mad Max Design</h5>
+                <span>OCT 2013 - june 2014</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="work-bottom">
+                    <h5>Crazy Design</h5>
+                    <span>OCT 2014 - june 2015</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+            <div class="col span_1_of_2 work-box wow bounceInRight" data-wow-delay=".2s">
+                <h3>Education</h3>
+                <h5>Maddison University</h5>
+                <span>OCT 2013 - june 2014</span>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="work-bottom">
+                    <h5>Max Design & Art Institute</h5>
+                    <span>OCT 2014 - Present</span>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- START PORTFOLIO SECTION -->
+    <section class="portfolio wow fadeInUp" data-wow-delay="1s" id="portfolio">
+        <div class="row">
+           <div class="section-title-box">
+                <h2>My Latest Works</h2>
+                <p>Hi, I’m Talha Sajul, Experience Crafter from Codersfoundation.</p>
+            </div>
+            <div class="grid-container">
+                <div class="grid-item item1"><a><img src="resources/img/p1.jpg" alt=""></a></div>
+                <div class="grid-item item2"><a href="https://talhasajul.github.io/Personal1/" target="_blank"><img src="resources/img/p2.jpg" alt=""></a></div>
+                <div class="grid-item item3"><a href="https://talhasajul.github.io/fb_login/" target="_blank"><img src="resources/img/fb.png" alt=""></a></div>
+                <div class="grid-item item4"><a href="https://talhasajul.github.io/Mogo/" target="_blank"><img src="resources/img/p4.jpg" alt=""></a></div>
+                <div class="grid-item item5"><a href="https://talhasajul.github.io/Cauda/" target="_blank"><img src="resources/img/Cauda.png" alt=""></a></div>
+                <div class="grid-item item6"><a><img src="resources/img/p6.jpg" alt=""></a></div>
+                <div class="grid-item item7"><a href="https://talhasajul.github.io/ChillAid/" target="_blank"><img src="resources/img/p7.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </section>
+    <!-- START TESTIMONIAL SECTION -->
+    <div class="testimonial" id="testimonial">
+        <div class="row wow slideInRight" data-wow-delay=".5s">
+           <img class="block-img" src="resources/img/blockquote.png" alt="">
+            <blockquote>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</blockquote>
+            <img class="signature" src="resources/img/signature.gif" alt="">
+            <h5>Deniel Croft</h5>
+            <span>Creative Designer, Levy</span>
+        </div>
+    </div>
+    <!-- START CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="row contact-wrap wow fadeInUp" data-wow-delay=".5s">
+            <form action="#" method="POST" class=" contact-left">
+                <h3>Leave a message</h3>
+                <input type="text" placeholder="Name*" required><br>
+                <input type="email" placeholder="Email*" required><br>
+                <input type="text" placeholder="Subject*" required><br>
+                <textarea cols="30" rows="10" placeholder="Messege*"></textarea><br>
+                <a href="#" class="btn about-btn">Hire Me!</a>
+            </form>
+            <ul class="contact-right">
+                <li>
+                    <div>
+                        <h3>Address</h3>
+                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+880 170 000 0000<br>+880 191 000 0000</p>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h3>Web</h3>
+                        <p>Mail: talhasajul01@gmail.com <br>Website: me.talhasajul.com</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- START FOOTER SECTION -->
+    <footer class="footer-section">
+        <div class="row">
+            <ul>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+            </ul>
+            <span>&copy; Copyright 2020-2050 <a href="https://www.facebook.com/sajul22" target="_blank">Talha_sajul.</a> All Rights Reserved.</span>
+        </div>
+    </footer>
+     <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up wow fadeInUp" data-wow-iteration="infinite"></i></button> 
+    <!-- JS SCRIPTS -->
+    <script src="vendors/js/typed.min.js"></script>
+    <script>
+        var typed = new Typed('.typed', {
+            strings: ['Freelance Web Designer', 'Professional Wordpress Expert', 'Ecommerce Expert', 'Web reSearcher'],
+            typeSpeed: 20,
+            backSpeed: 15,
+            startDelay: 1000,
+            backDelay: 1000,
+            loop: true,
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="vendors/js/html5shiv.min.js"></script>
+    <script src="vendors/js/respond.min.js"></script>
+    <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/particles.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="vendors/js/wow.min.js"></script>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
